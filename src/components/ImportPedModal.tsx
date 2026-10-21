@@ -11,7 +11,7 @@ const STATUSES: PostStatus[] = ['bozza', 'approvato', 'pubblicato'];
 const TESTO_ESEMPIO = `15/08/2026
 Tipo: Reel
 Orario: 18:00
-Cliente: Wedoo
+Cliente: Studio Demo
 Argomento: ...
 Caption: ...
 ---`;
@@ -192,7 +192,7 @@ function ImportPedModal({ clienti, onAddCliente, onImport, onClose }: ImportPedM
               value={pastedText}
               onChange={(e) => setPastedText(e.target.value)}
               rows={15}
-              placeholder={'15/08/2026\nTipo: Reel\nOrario: 18:00\nCliente: Wedoo\nArgomento: ...\nCaption: ...\n---'}
+              placeholder={'15/08/2026\nTipo: Reel\nOrario: 18:00\nCliente: Studio Demo\nArgomento: ...\nCaption: ...\n---'}
               className="w-full border border-line rounded-sm px-3 py-2 text-sm text-ink font-mono resize-y"
             />
             <button

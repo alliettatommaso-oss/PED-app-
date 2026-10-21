@@ -9,7 +9,7 @@ export const mockPosts: Post[] = [
     orario: '10:00',
     argomento: 'Servizi',
     stato: 'pubblicato',
-    cliente: 'Pistoia Capitale del Libro',
+    cliente: 'Festival Lettura Demo',
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const mockPosts: Post[] = [
     orario: '18:30',
     argomento: 'Team',
     stato: 'approvato',
-    cliente: 'Wedoo',
+    cliente: 'Studio Demo',
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ export const mockPosts: Post[] = [
     orario: '09:00',
     argomento: 'Ispirazione',
     stato: 'bozza',
-    cliente: 'Pistoia Capitale del Libro',
+    cliente: 'Festival Lettura Demo',
   },
   {
     id: '4',
@@ -39,7 +39,7 @@ export const mockPosts: Post[] = [
     orario: '17:00',
     argomento: 'Tutorial',
     stato: 'pubblicato',
-    cliente: 'Wedoo',
+    cliente: 'Studio Demo',
   },
   {
     id: '5',
@@ -49,7 +49,7 @@ export const mockPosts: Post[] = [
     orario: '12:00',
     argomento: 'Case study',
     stato: 'approvato',
-    cliente: 'Pistoia Capitale del Libro',
+    cliente: 'Festival Lettura Demo',
   },
   {
     id: '6',
@@ -59,7 +59,7 @@ export const mockPosts: Post[] = [
     orario: '11:00',
     argomento: 'Prodotto',
     stato: 'bozza',
-    cliente: 'Wedoo',
+    cliente: 'Studio Demo',
   },
   {
     id: '7',
@@ -69,6 +69,6 @@ export const mockPosts: Post[] = [
     orario: '19:00',
     argomento: 'Recap',
     stato: 'pubblicato',
-    cliente: 'Pistoia Capitale del Libro',
+    cliente: 'Festival Lettura Demo',
   },
 ];

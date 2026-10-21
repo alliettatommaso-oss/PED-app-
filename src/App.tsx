@@ -23,7 +23,7 @@ const VIEWS: { key: View; label: string }[] = [
   { key: 'giorno', label: 'Giorno' },
 ];
 
-const DEFAULT_CLIENTI = ['Pistoia Capitale del Libro', 'Wedoo'];
+const DEFAULT_CLIENTI = ['Festival Lettura Demo', 'Studio Demo'];
 
 function App() {
   const [posts, setPosts] = useState<Post[]>(() => loadPosts() ?? mockPosts);
